@@ -1,0 +1,27 @@
+# Optimizing CDN Costs: Leveraging Price Class for AWS CloudFront
+
+## Issue:
+
+We have observed that the prices for Content Delivery Network (CDN) services in the US, Europe, and Israel are substantially lower than in India, with a cost difference exceeding 50%. As an illustration:
+
+- **1 PB per month from US/EU/Israel:** $40,000 per month, equivalent to about $500,000 per year.
+
+- **1 PB per month from India:** $85,000 per month, equivalent to about $1.02 million per year.
+
+## Potential Solution:
+
+To address the cost disparity and optimize our CDN expenses, we propose the following solution:
+
+### Implementation of "Price Class 100" for AWS CDN
+
+**Rationale:** We recommend adopting the "Price Class 100" option for our AWS Content Delivery Network (CDN). This specific pricing tier covers only the US and Europe regions, thus providing a cost-effective alternative. While this choice may result in a slight increase in latency due to a more geographically limited CDN distribution, it offers substantial cost savings.
+
+**Benefits:**
+
+1. **Cost Efficiency:** The primary benefit is a significant reduction in CDN expenses. By limiting our CDN coverage to the US and Europe, we can achieve considerable cost savings, making our CDN usage more financially sustainable.
+
+2. **Trade-Off in Latency:** While there may be a slight trade-off in latency, this is generally acceptable for many applications, especially when considering the substantial cost benefits.
+
+## Conclusion:
+
+By implementing the "Price Class 100" option for our AWS CDN, which restricts CDN coverage to the US and Europe, we can achieve significant cost savings without compromising the overall performance of our content delivery. This solution aligns with our commitment to optimizing costs while delivering a quality user experience.

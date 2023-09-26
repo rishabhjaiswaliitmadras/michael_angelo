@@ -28,7 +28,7 @@ In this series of case studies, we have identified cost optimization opportuniti
 
 ## Optimizing Route 53 Configuration for Future Cost Efficiency
 - **Current Configuration:** Handling 620 million Standard queries per month costs around $250 a month.
-- **Approach:** Avoiding specific query types and simplifying Traffic Flow settings for cost savings.
+- **Approach:** Avoiding specific query types and Traffic Flow for cost savings.
 - **Outcome:** Enhanced cost efficiency in DNS services while maintaining satisfactory performance.
 
 By implementing these cost optimization initiatives, we aim to significantly reduce operational expenses across various infrastructure components while ensuring high-quality services. These efforts align with our commitment to cost optimization, operational efficiency, and long-term financial sustainability.

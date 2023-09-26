@@ -20,13 +20,13 @@ In this series of case studies, we have identified cost optimization opportuniti
 - **Outcome:** Cost savings, operational efficiency, and data accessibility improvements in DynamoDB operations.
 
 ## Optimizing CDN Costs: Leveraging Price Class for AWS CloudFront
-- **US/EU/Israel Cost:** $500,000 per year
-- **India Cost:** $1.02 million per year
+- **US/EU/Israel Cost:** $500,000 per PB per year 
+- **India Cost:** $1.02 million per PB per year 
 - **Potential Savings:** Significant cost savings by implementing "Price Class 100" for AWS CDN.
 - **Outcome:** Reduced CDN expenses without compromising content delivery quality.
 
 ## Optimizing Route 53 Configuration for Future Cost Efficiency
-- **Current Configuration:** Handling 620 Standard queries efficiently.
+- **Current Configuration:** Handling 620 million Standard queries per month costs around $250 a month.
 - **Approach:** Avoiding specific query types and simplifying Traffic Flow settings for cost savings.
 - **Outcome:** Enhanced cost efficiency in DNS services while maintaining satisfactory performance.
 

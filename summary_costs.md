@@ -7,6 +7,7 @@ In this series of case studies, we have identified cost optimization opportuniti
 - **Projected Cost Reduction:** By reducing mascot image size from 1.5 MB to 15 KB, the annual AWS Data Transfer cost is expected to decrease to $5,000.
 - **Cost Reduction:** $495,000 per year
 - **Outcome:** Significant cost reduction while improving data transfer efficiency and maintaining mascot image quality.
+- **DETAILS:** https://github.com/orgs/chateleon/discussions/19
 
 ## Future-Proofing API Gateway and Lambda for Mascot Delivery
 - **Current API Gateway Cost:** $42,000 per year
